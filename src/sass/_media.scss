@@ -1,3 +1,13 @@
+@media (max-width: 1200px) {
+    .consultation {
+        &__desckr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin-left: 330px;
+    }
+}
 @media (max-width: 776px) {
     .header {
         width: 718px;
@@ -42,6 +52,17 @@
             }
         }
     }
+    .consultation {
+        .title {
+            &_consult {
+                text-align: center;
+                font-size: 29px;
+            }
+        }
+    }   .feed-form {
+        margin-left: 247px;
+    }
+    
 }
 @media (max-width: 575px) {
     .header {
@@ -100,7 +121,15 @@
             font-size: 25px;
         }
     }
-   
-    
+    .consultation {
+        .title {
+            &_consult {
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+    }   .feed-form {
+        margin-left: 63px;
+    }  
 }  
 

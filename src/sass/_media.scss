@@ -130,6 +130,13 @@
         }
     }   .feed-form {
         margin-left: 63px;
+    }
+    .carousel {
+        &__inner {
+            img {
+                width: 90%;
+            }
+        }
     }  
 }  
 

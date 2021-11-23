@@ -1,0 +1,36 @@
+.rewiews {
+    &__people {
+        display: flex;
+        justify-content: start;
+        margin-top: 60px;
+        width: 100%;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    &__avatar {
+        width: 169px;
+        height: 169px;
+    }
+    &__rewiew {
+        width: 665px;
+        min-height: 190px;
+        margin-left: 60px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__text {
+        margin: 20px 0 50px 0;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}

@@ -61,8 +61,19 @@
         }
     }   .feed-form {
         margin-left: 247px;
+    }
+    .rewiews {
+        margin: 0 20px;
+        &__photo {
+            display: block;
+            margin: 0 auto;
+            width: 85%;
+        }
+        .rewiews__rewiew {
+            margin-left: 25px;
+        }      
     }    
-}
+    }    
 @media (max-width: 575px) {
     .header {
         width: 100%;
@@ -161,5 +172,6 @@
             margin-left: 27px;
         }
     } 
+
 }  
 

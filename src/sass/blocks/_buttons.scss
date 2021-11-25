@@ -8,6 +8,18 @@
     font-weight: 500;
     text-transform: uppercase;
     color: #ffffff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: 0.3s all;
+    &:hover {
+        background: #2EE59D;
+        box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+        color: black;
+        transform: translateY(7px);
+    }
+    &:active {
+        background: #2EE59D;
+        color: black;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;

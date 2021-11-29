@@ -165,7 +165,7 @@
         }
         .catalog__tab {
             width: 200px;
-            font-size: 12px;
+            font-size: 10px;
         }
         .catalog__content {
             margin-top: 30px;
@@ -189,10 +189,19 @@
     }
     .overlay {
         .modal {
-            left: 45%;
+            left: 50%;
             width: 350px;
             padding-left: 20px;
             padding-right: 20px;
+        }
+    }
+    .footer {
+        .footer__info {
+            width: 323px;
+            height: 250px;
+        }
+        .footer__addr {
+            margin-bottom: 12px;
         }
     }
 }

@@ -19,6 +19,10 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 30px;
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state:paused;
+            }
         }
         span {
             display: block;

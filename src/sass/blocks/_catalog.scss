@@ -153,22 +153,23 @@
                 margin-left: 0px;
             }
             }
-        &__back {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(calc(50% - 60px));
-            display: block;
-            font-size: 14px;
-            font-weight: 500;
-            text-decoration: underline;
-            color: $main-color;
-            text-transform: uppercase;
-            &:hover {
-                color: $main-color;
-            }
-        }
+            li.catalog-item__back {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(calc(50% - 60px));
+                display: block;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: underline;
+                text-transform: uppercase;
+                &:before {
+                    display: none;
+                }
+                a {
+                    color: $main-color;
+                }
+                }
         
         }
-
     }

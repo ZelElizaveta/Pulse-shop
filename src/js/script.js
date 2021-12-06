@@ -74,20 +74,20 @@ $(document).ready(function(){
 
       $('input[name=phone]').mask ("+7 (999) 999-9999");
 
-      $('form').submit (function(e) {
+      $('form').submit(function(e) {
         e.preventDefault();
         $.ajax({
-          type: "POST",
-          url: "mailer/smart.php",
-          data: $(this).serialize()
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
         }).done(function() {
-          $(this).find("input").val("");
-          $('#consultation, #order').fadeOut();
-          $('.overlay, #finish').fadeIn('slow');
-          $('form').trigger('resert');
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #finish').fadeIn('slow');
+            $('form').trigger('reset');
         });
         return false;
-      });
+    });
 
       $(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {
